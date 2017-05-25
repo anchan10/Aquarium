@@ -5,7 +5,7 @@
 
 body {
     font-family: "Rounded Mplus 1c";
-    font-weight: 200;
+    font-weight: 300;
 }
 
 body.index {
@@ -20,8 +20,10 @@ body.index {
     width: 100%;
     position: absolute;
     top: 0;
-    background: #93E6EA /*url(Images/image2.jpg) no-repeat
-    center*/;
+    /*
+    background: #93E6EA url(Images/image2.jpg) no-repeat
+    center; */
+    background-color: #007be0;
     background-size: cover;
     background-attachment: fixed;
     z-index: -100;
@@ -96,7 +98,8 @@ body.index .underbar {
 }
 
 body.ticket .underbar {
-    background-color: #93E6EA;
+    /*background-color: #93E6EA;*/
+    background-color: #007be0;
 }
 
 body.ticket .ticket_bar {
@@ -133,7 +136,8 @@ a.event {
 }
 
 #sidebar_ticket ul li a {
-    color: #3C3C3C;
+    color: /*#3C3C3C*/ #001329;
+    font-weight: 300;
 }
 
 .sidebar ul li a {
@@ -153,11 +157,12 @@ a.event {
 .container_ticket h3 {
     margin-left: 400px;
     font-family: "Rounded Mplus 1c";
-    font-weight: 200;
+    font-weight: 300;
     font-size: 25px;
     padding-left: 10px;
-    border-left: solid 7px #93E6EA;
+    border-left: solid 7px /*#93E6EA*/　#007be0;
     margin-top: 50px;
+    color: #001329;
 }
 
 .container_ticket table.fee {
@@ -167,7 +172,7 @@ a.event {
     margin-top: 20px;
     margin-left: 400px;
     margin-bottom: 100px;
-    border: solid 2px #93E6EA;
+    border: solid 2px /*#93E6EA*/ #007be0;
 }
 
 table.fee,
@@ -177,18 +182,18 @@ table.fee td {
 
 body.ticket table td {
     font-family: "Rounded Mplus 1c";
-    font-weight: 200;
+    font-weight: 300;
     font-size: 20px;
     padding: 20px;
 }
 
 table.fee td {
-    border-bottom: solid 2px #93E6EA;
+    border-bottom: solid 2px /*#93E6EA*/ #007be0;
 }
 
 table.fee td:nth-of-type(odd) {
     border-bottom: solid 2px #fff;
-    background-color: #93E6EA;
+    background-color: /*#93E6EA*/ #007be0;
     color: #fff;
 }
 
@@ -207,9 +212,9 @@ table.buy {
 }
 
 table.buy td {
-    border: solid 2px #93E6EA;
+    border: solid 2px /*#93E6EA*/ #007be0;
     margin-right: 30px;
-    background: linear-gradient(to top, #fff 50%, #93E6EA 50%);
+    background: linear-gradient(to top, #fff 50%, /*#93E6EA*/ #007be0 50%);
     background-size: 100% 200%;
     background-position: left bottom;
     transition: all 0.5s ease;
@@ -220,7 +225,7 @@ table.buy td:hover {
 }
 
 table.buy td a {
-    color: #3C3C3C;
+    color: /*#3C3C3C*/ #001329;
     position: relative;
 }
 
