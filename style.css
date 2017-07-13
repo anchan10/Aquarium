@@ -39,13 +39,18 @@ body.index {
     color: #fff;
     font-weight: 300;
 }
-
+/*
 .heading img {
     height: 40px;
     width: 40px;
     padding-bottom: 30px;
+    
 }
+*/
 
+i.fa-ticket {
+    padding-bottom: 30px;
+}
 
 .time {
     padding: 30px;
